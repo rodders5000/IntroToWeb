@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    min-width: 100vw;
+    height: auto;
+    background-color: darkkhaki;
+    text-align: center;
+    line-height: 250%;
+    font-size: 30px;
+    
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+main{
+    
+    width: 100%;
+    min-height: 100vh;
+    top: 250px;
+    bottom: 100px;
+}
+
+#wrapper {
+    display: inline-flex;
+    font-size: 25px;  
+}
+
+
+#left, #center {
+  
+    min-height: 100vh;
+    
+    top: 250px;
+    
+    bottom: 100px;   
+    padding-left: 25px;
+    
+}
+
+#left {
+    width: 300px;
+    background-color: darkolivegreen;
+    
+}
+
+#center {
+    width: 100vw;
+    line-height: 200%;
+    background-color: darkslategray;
+    
+}
+
+footer {
+    min-width: 50vw;
+    background-color: darkkhaki;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#img1 {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: brown;
+    size: 10px;
+    width: 25vw;
+    height: 25vw;
+
+  
+}
+
+.img2 {
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   
+    size: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: fill;
+  }
+
+ .bg {
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    
+ }
+
+ .bgFacebook {
+
+    background-image: url("../Images/Facebook.png");
+    background-size: 110%;
+
+ }
+
+ .bgGmail {
+
+    background-image: url("../Images/gmail2.png");
+    background-size: 150%;
+
+ }
+
+ .bgLinked {
+
+    background-image: url("../Images/linkedvec.png");
+    background-size: 120%;
+
+ }
+
+
+ .inLineFlex {
+    padding: 50px;
+    display: inline-flex;
+ }
+
+ footer {
+     background-color: black;
+     color: white;
+ }
